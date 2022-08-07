@@ -1,0 +1,61 @@
+body{
+    background-color: var(--google-gray-900);/*32*/
+    color: rgb(95,99,104);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding-top: 7%;
+}
+
+ul {
+    display: table;
+    margin-left: 25%;
+}
+.page__img {
+    padding-left: 25%;
+    width: 80px;
+    height: 80px;
+}
+.page__list-3 {
+    color:rgb(25,103,210);
+    
+}
+h1 {
+    padding-left: 27%;
+    font-size:x-large;
+    font-weight:600;
+
+}
+dt {
+    padding-left: 27%;
+}
+#page__p {
+    padding-left: 27%;
+}
+
+@media (min-width:360px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding:0;
+    }
+    body{
+        padding-top: 25%;
+        font-size: 90%;
+    }
+    dt {
+        padding-left: 25px;
+    }
+    .page__img{
+        padding-left: 0px;
+        padding-bottom: 25px;
+    }
+    h1{
+        padding-left: 24px;
+        padding-bottom: 13px;
+    }
+    ul{      
+        margin-left: 62px;
+    }
+    #page__p{
+        padding-top: 13px;
+        padding-left: 24px;
+    }
+}
